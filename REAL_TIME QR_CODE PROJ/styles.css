@@ -1,0 +1,64 @@
+body {
+    font-family: Minecraft, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(94, 163, 183);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#preview {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.scan-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.scan-button:hover {
+    background-color: #218838;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ceec0a;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.alert-box {
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
